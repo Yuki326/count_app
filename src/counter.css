@@ -1,0 +1,29 @@
+.counter{
+  font-size:3rem;
+}
+
+.counterButton {
+  display: inline-block;
+  font-size: 32px;
+  width: 200px;
+  height: 48px;
+  border-radius: 4px;
+  margin-right: 24px;
+  margin-left: 24px;
+  color: #fff;
+  background-color: #66ccff;
+  border: none;
+  outline: none;
+  box-shadow: 4px 4px #d8d8d8;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.counterButton:active {
+  position: relative;
+  top: 4px;
+  left: 4px;
+  box-shadow: none;
+}

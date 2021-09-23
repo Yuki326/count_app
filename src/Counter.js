@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-
+import './counter.css'
 class Counter extends Component{
   constructor(props){
     super(props)
@@ -17,16 +17,16 @@ class Counter extends Component{
   decrement = () => {
     this.setState(
       {
-        count:this.state.count - 1
+        count:this.state.count>0 ? this.state.count - 1:0
       });
   };
 
   render(){
     return (
       <div>
-        <p>Count :{this.state.count}</p>
-        <button onClick={this.increment}>+</button>
-        <button onClick={this.decrement}>-</button>
+        <h1 className="counter">{this.state.count}</h1>
+        <button className="counterButton"onClick={this.increment}>+</button>
+        <button className="counterButton"onClick={this.decrement}>-</button>
       </div>
     )
   }

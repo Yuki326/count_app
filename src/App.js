@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import Counter from './Counter';
+import ToggleButton from './ToggleButton';
 import './App.css';
 
 class App extends Component{
@@ -8,6 +9,10 @@ class App extends Component{
       <div className="App">
         <h1>Count App</h1>
         <Counter />
+        
+        <ToggleButton title="いいね" />
+        <ToggleButton title="good" />
+        <ToggleButton title="bad" />
       </div>
     )
   }
