@@ -7,7 +7,6 @@ class App extends Component{
     return(
       <div className="App">
         <h1>Count App</h1>
-        <Counter />
       </div>
     )
   }
