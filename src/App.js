@@ -1,7 +1,6 @@
-import React,{Component, useEffect} from 'react';
+import React,{Component} from 'react';
 import Counter from './Counter';
 import ToggleButton from './ToggleButton';
-import LikedButton from './LikedButton';
 import Time from './Time';
 import './App.css';
 import LikedButtonComponent from './LikedButton';
