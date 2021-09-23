@@ -1,5 +1,14 @@
-.counter{
+.counter-0{
   font-size:3rem;
+  color:black;
+}
+.counter-1{
+  font-size:3rem;
+  color:orange;
+}
+.counter-2{
+  font-size:3rem;
+  color:red;
 }
 
 .counterButton {

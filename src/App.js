@@ -1,8 +1,10 @@
-import React,{Component} from 'react';
+import React,{Component, useEffect} from 'react';
 import Counter from './Counter';
 import ToggleButton from './ToggleButton';
 import LikedButton from './LikedButton';
+import Time from './Time';
 import './App.css';
+import LikedButtonComponent from './LikedButton';
 
 class App extends Component{
   render(){
@@ -13,7 +15,8 @@ class App extends Component{
         <ToggleButton title="favorite" />
         <ToggleButton title="good" />
         <ToggleButton title="bad" />
-        <LikedButton />
+        <LikedButtonComponent />
+        <Time />
       </div>
     )
   }

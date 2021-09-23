@@ -22,10 +22,14 @@ class Counter extends Component{
   };
 
   render(){
+    let className = this.state.count>2 ? (this.state.count>5 ? "counter-2" : "counter-1"):"counter-0";
+    const clicked =()=>{
+      this.increment();
+    }  
     return (
       <div>
-        <h1 className="counter">{this.state.count}</h1>
-        <button className="counterButton"onClick={this.increment}>+</button>
+        <h1 className={className}>{this.state.count}</h1>
+        <button className="counterButton"onClick={()=>clicked()}>+</button>
         <button className="counterButton"onClick={this.decrement}>-</button>
       </div>
     )
