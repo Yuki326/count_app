@@ -1,11 +1,13 @@
 import React from 'react';
 import './toggleButton.css';
+//クリックすると見た目が切り替わる機能。与えられたtitleをボタンに表示する。
 function ToggleButton(props){
-  const[liked,setLiked] = React.useState(false);
-  const className = liked ? 'on':'off'
+  const [clicked,SetClicked]=React.useState(false);
+  const className = clicked ? 'on':'off';
   return(
-    <button className={className} onClick={()=>setLiked(!liked)}>{props.title}</button>
+    <button className ={className} onClick={()=>{SetClicked(!clicked)}}>{props.title}</button>
   )
 }
+
 
 export default ToggleButton
