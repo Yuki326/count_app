@@ -4,8 +4,13 @@ import './toggleButton.css';
 function ToggleButton(props){
   const [clicked,SetClicked]=React.useState(false);
   const className = clicked ? 'on':'off';
+  const box = clicked ? 'red':'blue';
   return(
+    <>
     <button className ={className} onClick={()=>{SetClicked(!clicked)}}>{props.title}</button>
+    <div className={box}>
+    </div>
+    </>
   )
 }
 

@@ -16,7 +16,7 @@ class BackGround extends Component{
   render(){
     return(
       <>
-        <img alt="これは画像です" className="picture" src= {this.data[this.props.count]}/>
+        <img alt="これは画像1です" className="picture" src= {this.data[this.props.count]}/>
       </>
     )
   }

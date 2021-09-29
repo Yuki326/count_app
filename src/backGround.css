@@ -1,21 +1,32 @@
+.picture1{
+  position:fixed;
+  height:0vh;
+  width:100vw;
+  top:20vh;
+  left:0;
+  animation-name: test;
+  animation-duration: 2s;
+  animation-iteration-count:1;
+}
+
+
 .picture{
   position:fixed;
   height:60vh;
   width:100vw;
   top:20vh;
   left:0;
-  animation: test 2s infinite ease;
+  animation-name: test;
+  animation-duration: 2s;
+  animation-iteration-count:1;
 }
+
 @keyframes test {
   0% {
     left: 100vw;
   }
   
-  50% {
-    left: 0vw;
-  }
-  
   100% {
-    left: 100vw;
+    left: 0vw;
   }
 }
