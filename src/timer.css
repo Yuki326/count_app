@@ -1,0 +1,14 @@
+.Clock{
+  color:#B2D235;
+  margin-top:0px;
+  margin-left:0px;
+  height:100vh;
+  width:100vw;
+  position:fixed;
+  top:0px;
+  left:0px;
+  text-align:center;
+  padding-top:40vh;
+  font-size:3rem;
+  font-weight:1000;
+}

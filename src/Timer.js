@@ -1,11 +1,12 @@
 import React,{Component} from 'react';
-
-class Time extends Component{
+import './timer.css';
+class Timer extends Component{
   constructor(props) {
     super(props)
     this.state = {
       timelag: '',
-      nowTime: ''
+      nowTime: '',
+      timer:300
     }
   }
 
@@ -13,7 +14,8 @@ class Time extends Component{
   componentDidMount() { // ----------- ①
     setInterval(() => {
       this.setState({
-        nowTime: this.getTime(this.state.timelag)
+        nowTime: this.getTime(this.state.timelag),
+        timer:this.state.timer-1
       });
     }, 1000)
   }
@@ -47,11 +49,11 @@ class Time extends Component{
   render() {
     return (
       <>
-        <p>{this.state.nowTime}</p>
+        <h1 className="Clock">{this.state.nowTime}</h1>
       </>
     )
   };
 }
 
 
-export default Time;
+export default Timer;
