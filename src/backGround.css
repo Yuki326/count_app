@@ -17,7 +17,7 @@
   top:20vh;
   left:0;
   animation-name: test;
-  animation-duration: 2s;
+  animation-duration: 0.5s;
   animation-iteration-count:1;
 }
 

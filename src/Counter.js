@@ -28,8 +28,8 @@ class Counter extends Component{
   render(){
     return (
       <div>
-        <button className="counterButton"onClick={this.increment}>+</button>
-        <button className="counterButton"onClick={this.decrement}>-</button>
+        <button className="counterButton"onClick={this.increment}>Next</button>
+        <button className="counterButton"onClick={this.decrement}>Back</button>
         <BackGround count={this.state.count%3/*todo 画像の枚数*/}/>
       </div>
     )
