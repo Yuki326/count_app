@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import reactDom from 'react-dom';
 import BackGround from './BackGround';
 import './counter.css'
 
