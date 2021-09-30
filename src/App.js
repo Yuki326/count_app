@@ -10,6 +10,7 @@ class App extends Component{
         <div className= "header">
           <ToggleButton title="test"/>
           <a className="gitLink" href="https://github.com/Yuki326">github</a>
+          <a className="react 練習用ページ" href="https://brave-forest-027d0d210.azurestaticapps.net/">react 練習用ページ</a>
         </div>
         <div className="testArea">
           <div className="box1"></div>
