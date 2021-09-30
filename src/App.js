@@ -7,7 +7,14 @@ class App extends Component{
   render(){
     return(
       <div className="App">
-        <ToggleButton title="test"/>
+        <div className= "header">
+          <ToggleButton title="test"/>
+          <a className="gitLink" href="https://github.com/Yuki326">github</a>
+        </div>
+        <div className="testArea">
+          <div className="box1"></div>
+          <div className="box2"></div>
+        </div>
         <div className="footer">
           <Counter />
         </div>

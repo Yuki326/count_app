@@ -12,9 +12,9 @@
 
 .picture{
   position:fixed;
-  height:60vh;
+  height:30vh;
   width:100vw;
-  top:20vh;
+  top:50vh;
   left:0;
   animation-name: test;
   animation-duration: 0.5s;

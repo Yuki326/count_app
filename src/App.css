@@ -1,3 +1,11 @@
+.testArea{
+  position:fixed;
+  top:20vh;
+  left:0;
+  width:100vw;
+  height:30vh;
+  background-color:black;
+}
 .footer{
   position:fixed;
   top:80vh;
@@ -7,6 +15,7 @@
 }
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -21,7 +30,7 @@
 }
 
 .App-header {
-  background-color: green;
+  background-color: rgb(255, 136, 0);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
